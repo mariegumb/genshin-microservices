@@ -1,0 +1,20 @@
+{
+    "nations": [
+        {
+            "id": 1,
+            "name": "Inazuma",
+            "element": "Electro",
+            "archon": "Baal"
+        }, 
+        {
+            "name": "Liyue",
+            "element": "Geo",
+            "archon": "Morax"
+        },
+        {
+            "name": "Mondstadt",
+            "element": "Anemo",
+            "archon": "Barbatos"
+        }
+    ]
+}

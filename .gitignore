@@ -1,0 +1,7 @@
+genshin-webapp/node_modules/
+genshin-webapp/.vscode /
+genshin-nation-api/node_modules/
+genshin-nation-api/.idea/
+genshin-character-api/.gradle/
+genshin-character-api/.idea/
+genshin-character-api/build/

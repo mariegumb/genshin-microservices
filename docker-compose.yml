@@ -1,0 +1,25 @@
+
+version: '3'
+services:
+  nation-api:
+    build: ./genshin-nation-api
+    expose:
+      - "3000"
+    ports:
+      - "3000:3000"
+    networks:
+      - backend
+  character-api:
+    build: ./genshin-character-api
+    expose:
+      - "4000"
+    ports:
+      - "4000:4000"
+    networks:
+      - backend
+  web-app:
+    build: ./genshin-webapp
+    ports:
+      - "8080:80"
+networks:
+  backend: {}
